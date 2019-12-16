@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #f2c65d;
+}
+
+a {
+    color: #000;
+}
+
+
+.header {
+    background: #e3a432;
+    box-shadow: 1px 1px 4px 0 rgba (0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.header .logo {
+    margin-left: 3%;
+
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #e3a432;
+}
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #aaa;
+    text-decoration: none;
+}
+
+.header ul a:hover {
+    background-color: #ddd;
+
+}
+
+
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+
+}
+
+.header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+
+}
+
+.header .menu-icon .nav-icon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+
+}
+
+.header .menu-btn {
+    display: none;
+
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 100%;
+}
+
+
+.logo {
+    width: 120px;
+    height: 70px;
+
+
+
+}
+
+
+.moznost {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 2% 0;
+    border-bottom: 1px solid black;
+
+}
+
+.moznost1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 2% 0;
+    border-bottom: 1px solid black;
+
+}
+
+.moznost:hover {
+    background-color: black;
+    opacity: 85%;
+}
+
+.charity {
+    max-width: 90%;
+    margin: 0 2% 2% 4%;
+}
+
+.front {
+    max-width: 35%;
+}
+
+.container1 {
+    justify-content: center;
+}
+
+.bepart {
+    padding: 15px 25px 15px 25px;
+    background-color: #3B3434;
+    margin: 5% 5% 0 5%;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.part {
+    color: #EBDBDB;
+    font-size: 30px;
+}
+
+
+
+.shirt {
+    width: 80%;
+    margin: 2% 5%;
+
+}
+
+.shirt_container {
+    margin: 0 0 0 5%;
+    ;
+}
+
+.textfront_container {
+    background-color: #FFFFFF;
+    opacity: 65%;
+    padding: 15px;
+    margin: 5% 5% 2% 5%;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.textfront {
+    color: black;
+    font-family: bold;
+}
+
+.buy_button {
+    justify-content: center;
+    margin: 0 15% 100px 35%;
+    padding: 7px;
+    color: #ffffff;
+    background-color: #341805;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+
+.buy_button:hover {
+    background-color: #000000;
+}
+
+.texture {
+    height: 250px;
+}
+
+
+
+
+.footer_section {
+    background-color: #79360D;
+    max-height: 250px;
+    position: relative;
+    padding: 50px;
+
+}
+
+.contactus_section {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.newsletter-container {
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+
+    color: white;
+}
+
+.some_container {
+    position: relative;
+    text-align: right;
+    color: white;
+
+
+}
+
+
+
+
+
+@media(min-width:48em) {
+    .header li {
+        float: left;
+
+
+    }
+
+    .header li a {
+        padding: 20px 30px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+    .shirt_container {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+
+
+
+}

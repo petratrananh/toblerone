@@ -1,0 +1,166 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nadpis {
+    color: #F20404;
+    text-align: center;
+}
+
+.nadpisy {
+    margin: 10%;
+}
+
+.nadpis2 {
+    color: black;
+    text-align: center;
+}
+
+.nadpisy2 {
+    margin: 10%;
+    font-size: 18px;
+
+}
+
+.popisik {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.popis {
+    text-align: center;
+    margin: 10% 10%;
+}
+
+.follow {
+    color: #8C2D2D;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.pop {
+    margin: 50px;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+.poop {
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.win {
+    font-size: 22px;
+}
+
+.totok {
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.totook {
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.instagram {
+    width: 250px;
+    height: 450px;
+    margin: 5% 5% 25% 17%;
+}
+
+.twoshirts {
+    display: flex;
+    flex-direction: row;
+}
+
+.shirt_container2 {
+    margin: 10% 10% 10% 2%;
+}
+
+.shirt_container1 {
+    margin: 10% 2% 10% 18%;
+}
+
+.shirty {
+    max-width: 100px;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.jo {
+    text-decoration: none;
+}
+
+.hahaha {
+    margin: 50px;
+    ;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+.here {
+    color: blue;
+
+}
+
+.lolol {
+    font-size: 10px;
+    margin: 0 35% 0 5%;
+}
+
+
+.shirt_container {
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.shirt_container1 {
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+}
+
+.cokina {
+    max-height: 150px;
+    max-width: 250px;
+}
+
+.cokolada {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.lol {
+    margin-bottom: 50px;
+    text-align: center;
+    margin: 0 5% 50px 15%;
+}
+
+.bielepozadie {
+    background-color: white;
+    margin: 20px 15px;
+}
